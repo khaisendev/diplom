@@ -1,0 +1,95 @@
+/*=========================================CONNECTION==================================*/
+.connection__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 27px;
+  background: #A658B3;
+  padding: 30px 145px 29px 69px;
+}
+.connection__content {
+  max-width: 461px;
+}
+.connection__title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.connection__paragraph {
+  color: #fff;
+  font-weight: 300;
+  line-height: normal;
+  margin: 22px 0;
+  line-height: 23px;
+}
+.connection__form {
+  max-width: 100%;
+  border-radius: 27px;
+  background: rgba(115, 8, 133, 0.5);
+  padding: 6px 6px 6px 14px;
+}
+.connection__form-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.connection__form-input {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  background: transparent;
+  width: 90%;
+}
+.connection__form-input::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: normal;
+}
+.connection__form-input::-moz-placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: normal;
+}
+.connection__form-input:-ms-input-placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: normal;
+}
+.connection__form-input::-ms-input-placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: normal;
+}
+.connection__form-input::placeholder {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: normal;
+}
+.connection__form-button {
+  white-space: nowrap;
+  display: block;
+  color: #A658B3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 9px 15px;
+  border-radius: 27px;
+  background: #D9D9D9;
+}
+.connection__images {
+  margin-left: 10px;
+}

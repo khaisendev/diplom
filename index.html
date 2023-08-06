@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>NFT</title>
+</head>
+<body>
+   <div class="wrapper">
+    <header class="header">
+      <a class="burger" href="#">
+        <span></span>
+      </a>
+      <div class="header__top">
+        <div class="header__container">
+          <div class="header__top-inner">           
+            <a class="header__logo" href="#">
+              <div class="header__logo-box">
+                <img src="images/head__logo.svg" alt="logo">
+                <span> Nifter </span>
+              </div class="header__logo-box">
+            </a>
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Home</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Market</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Discover</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Commanity</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="#">Wallet</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__search">
+              <form class="header__search-form">
+                <label class="header__search-label">
+                  <input class="header__search-input" type="search" placeholder="Search"> 
+                </label>              
+              </form>
+              <a class="header__search-button button" href="#">Explor</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__body">
+        <div class="containers">
+          <div class="header__inner">
+            <div class="header__main">
+              <div class="header__info">
+                <div class="header__info-content">
+                  <h1 class="header__info-title title">Disсover, collect and sell dope NFTs</h1>
+                  <p class="header__info-paragraph">
+                    The wold largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs)
+                  </p>
+                  <div class="header__info-btn">
+                    <a class="header__info-button button" href="#">Explore</a>
+                    <a class="header__info-buttons buttons" href="#">Create</a>
+                  </div>
+                </div>
+                <ul class="header__info-list">
+                  <li class="header__info-item">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Polygon 1" d="M7.5 0L15 10.5L7.5 21L0 10.5L7.5 0Z" fill="#8F20A1"/>
+                    </svg>
+                    <div class="header__info-box">
+                      <div class="header__info-numb">42K+</div>
+                      <div class="header__info-elem">User Active</div>
+                    </div>
+                  </li>
+                  <li class="header__info-item">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Polygon 1" d="M7.5 0L15 10.5L7.5 21L0 10.5L7.5 0Z" fill="#8F20A1"/>
+                    </svg>
+                    <div class="header__info-box">
+                      <div class="header__info-numb">8K+</div>
+                      <div class="header__info-elem">Artworks</div>
+                    </div>
+                  </li>
+                  <li class="header__info-item">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Polygon 1" d="M7.5 0L15 10.5L7.5 21L0 10.5L7.5 0Z" fill="#8F20A1"/>
+                    </svg>
+                    <div class="header__info-box">
+                      <div class="header__info-numb">2K+</div>
+                      <div class="header__info-elem">Artist</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="header__content">
+                <div class="header__wrap">
+                  <img class="header__effect" src="images/header/effect__bo.png" alt="effect">
+                  <img class="header__images" src="images/header/statue.png" alt="statue">
+                </div>
+                <div class="header__box">
+                  <div class="header__prise">
+                    <div class="header__prise-item">Current Bid</div>
+                    <div class="header__prise-eth">5.00 ETH</div>
+                    <div class="header__prise-numb">$11,373.55</div>
+                  </div>
+                  <div class="header__timer">
+                    <div class="header__timer-item">Auction ends in</div>
+                    <div class="header__timer-time" id="timer">
+                      <div class="header__timer-hours" id="hours"></div>
+                      <div class="header__timer-mins" id="minutes"></div>
+                      <div class="header__timer-secs" id="seconds"></div>
+                    </div>
+                    <div class="header__timer-elements">
+                      <div class="header__timer-elem">Hourse</div>
+                      <div class="header__timer-elem">Mins</div>
+                      <div class="header__timer-elem">Secs</div>
+                    </div>
+                  </div>
+                  <div class="header__box-btn">
+                    <a class="header__box-button btn" href="#">Bid now</a>
+                    <a class="header__box-buttons buttons btns" href="#">See item</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="seller main__seller">
+        <div class="containers">
+          <div class="seller__inner">
+            <div class="seller__main">
+              <div class="seller__top">
+                <h2 class="seller__title title">Top seller</h2>
+                <div class="seller__dropdown">
+                  <input class="seleer__dropdown-selected" type="text" placeholder="Today" data-value="">
+                  <ul class="seller__dropdown-list">
+                    <li onclick="show('Today')" class="seller__dropdown-item" data-value=".today">Today</li>
+                    <li onclick="show('Week')" class="seller__dropdown-item" data-value=".week">Week</li>
+                    <li onclick="show('Month')" class="seller__dropdown-item" data-value=".month">Month</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="seller__content ">
+                <div class="seller__slider">
+                  <div class="seller__slider-box today week">
+                    <div class="seller__slider-card card--jorg">
+                      <img src="images/seller/card_jorg.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Jorg George</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">885.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--anna">
+                      <img src="images/seller/card_anna.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Anna Enabel</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">45.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="seller__slider-box today month">
+                    <div class="seller__slider-card card--maria">
+                      <img src="images/seller/card_maria.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Maria Stanton</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">100.1</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--zain">
+                      <img src="images/seller/card_zain.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Zain Betry</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">42.4</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="seller__slider-box today week">
+                    <div class="seller__slider-card card--kaiya">
+                      <img src="images/seller/card_kaiya.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Kaiya Berti</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">500.2</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--jordyn">
+                      <img src="images/seller/card_jordyn.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Jordyn Nis</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">885.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="seller__slider-box last-box today month">
+                    <div class="seller__slider-card card--ben">
+                      <img src="images/seller/card_ben.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Ben George</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">10</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--dav">
+                      <img src="images/seller/card_dav.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Dav George</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">495.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>      
+                  <div class="seller__slider-box today week">
+                    <div class="seller__slider-card card--jorg">
+                      <img src="images/seller/card_jorg.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Jorg George</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">885.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--anna">
+                      <img src="images/seller/card_anna.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Anna Enabel</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">45.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="seller__slider-box today month">
+                    <div class="seller__slider-card card--maria">
+                      <img src="images/seller/card_maria.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Maria Stanton</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">100.1</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--zain">
+                      <img src="images/seller/card_zain.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Zain Betry</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">42.4</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="seller__slider-box today week">
+                    <div class="seller__slider-card card--kaiya">
+                      <img src="images/seller/card_kaiya.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Kaiya Berti</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">500.2</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--jordyn">
+                      <img src="images/seller/card_jordyn.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Jordyn Nis</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">885.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="seller__slider-box today last-box month">
+                    <div class="seller__slider-card card--ben">
+                      <img src="images/seller/card_ben.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Ben George</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">10</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="seller__slider-card card--dav">
+                      <img src="images/seller/card_dav.jpg" alt="jorg">
+                      <div class="seller__slider-info">
+                        <h3 class="seller__slider-subtitle">Dav George</h3>
+                        <div class="seller__slider-sum">
+                          <div class="seller__slider-numb">495.6</div>
+                          <div class="seller__slider-eth">Eth</div>
+                        </div>
+                        <div class="seller__slider-ico">
+                          <img src="images/seller/addfriend.svg" alt="addfriend">
+                          <img src="images/seller/telegram.svg" alt="telegram">
+                        </div>
+                      </div>
+                    </div>
+                  </div>      
+              </div>          
+               <div class="seller__arrow">
+                 <a class="seller__arrows arrow-prev" href="#">
+                  <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector 1" d="M9.99997 1L0.99997 7.80952L9.99997 14" stroke="#" stroke-opacity=""/>
+                  </svg>
+                 </a>
+                 <a class="seller__arrows arrow-next" href="#">
+                  <svg width="11" height="15" viewBox="0 0 11 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="Vector 1" d="M0.999969 14L9.99997 7.19048L0.999969 1" stroke="#" stroke-opacity=""/>
+                  </svg>
+                 </a>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="auction main__auction">
+        <div class="auction__container">
+          <div class="auction__inner">
+            <div class="auction__top">
+              <h2 class="auction__title title">Live Auction</h2>
+            </div> 
+            <div class="auction__content">
+              <div class="auction__slider" id="auction__slide">
+                <div class="auction__slider-card slide__top">
+                  <img class="auction__slider-human" src="images/auction/onus_human.png" alt="#">
+                  <img class="auction__slider-images" src="images/auction/onus.jpg" alt="nft">
+                  <div class="auction__slider-heart">
+                    <label class="auction__slider-label">
+                      <input type="checkbox">                      
+                      <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector 2" d="M1 8.33834L11.413 16.255L21 8.33834L19 2.255L14.7174 1.255L11.413 5.005L7.69565 1.255L3.5 2.255L1 8.33834Z" stroke="#CB66DB"/>
+                      </svg>                    
+                    </label>
+                  </div>
+                  <div class="auction__slider-info">
+                    <div class="auction__slider-heading">
+                      <div class="auction__slider-article">
+                        <div class="auction__slider-name">Onus Medu</div>
+                        <div class="auction__slider-item">By davincidante</div>
+                      </div>
+                        <div class="auction__slider-prise">
+                        <div class="auction__slider-eth">5.12 ETH</div>
+                        <div class="auction__slider-stroke">8 in stock</div>
+                      </div>
+                    </div>
+                    <div class="auction__slider-bot">
+                      <div class="auction__slider-bid">
+                        <img src="images/auction/setting.svg" alt="settings">
+                        <div class="auction__slider-items">Highest bid <span>0.02Ethh</span></div>
+                      </div>
+                      <div class="auction__slider-btn">
+                        <a class="auction__slider-button" href="#">Piese Bid</a>
+                        <a class="auction__slider-buttons" href="#">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="auction__slider-card center-slide card__slide--active">
+                  <img class="auction__slider-human" src="images/auction/dream_human.png" alt="#">
+                  <img class="auction__slider-images" src="images/auction/dream.jpg" alt="nft">
+                  <div class="auction__slider-heart">
+                    <label class="auction__slider-label">
+                      <input type="checkbox">                      
+                      <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector 2" d="M1 8.33834L11.413 16.255L21 8.33834L19 2.255L14.7174 1.255L11.413 5.005L7.69565 1.255L3.5 2.255L1 8.33834Z" stroke="#CB66DB"/>
+                      </svg>                    
+                    </label>
+                  </div>
+                  <div class="auction__slider-info">
+                    <div class="auction__slider-heading">
+                      <div class="auction__slider-article">
+                        <div class="auction__slider-name">Dream Big</div>
+                        <div class="auction__slider-item">By itvrn</div>
+                      </div>
+                        <div class="auction__slider-prise">
+                        <div class="auction__slider-eth">2.45 ETH</div>
+                        <div class="auction__slider-stroke">6 in stock</div>
+                      </div>
+                    </div>
+                    <div class="auction__slider-bot">
+                      <div class="auction__slider-bid">
+                        <img src="images/auction/setting.svg" alt="settings">
+                        <div class="auction__slider-items">Highest bid <span>0.02Ethh</span></div>
+                      </div>
+                      <div class="auction__slider-btn">
+                        <a class="auction__slider-button" href="#">Piese Bid</a>
+                        <a class="auction__slider-buttons" href="#">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>          
+                <div class="auction__slider-card slide__top">
+                  <img class="auction__slider-human" src="images/auction/oddo_human.png" alt="#">
+                  <img class="auction__slider-images" src="images/auction/oddo.jpg" alt="nft">
+                  <div class="auction__slider-heart">
+                    <label class="auction__slider-label">
+                      <input type="checkbox">                      
+                      <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector 2" d="M1 8.33834L11.413 16.255L21 8.33834L19 2.255L14.7174 1.255L11.413 5.005L7.69565 1.255L3.5 2.255L1 8.33834Z" stroke="#CB66DB"/>
+                      </svg>                    
+                    </label>
+                  </div>
+                  <div class="auction__slider-info">
+                    <div class="auction__slider-heading">
+                      <div class="auction__slider-article">
+                        <div class="auction__slider-name">Oddoties</div>
+                        <div class="auction__slider-item">By brellias</div>
+                      </div>
+                        <div class="auction__slider-prise">
+                        <div class="auction__slider-eth">1.45 ETH</div>
+                        <div class="auction__slider-stroke">3 in stock</div>
+                      </div>
+                    </div>
+                    <div class="auction__slider-bot">
+                      <div class="auction__slider-bid">
+                        <img src="images/auction/setting.svg" alt="settings">
+                        <div class="auction__slider-items">Highest bid <span>0.02Ethh</span></div>
+                      </div>
+                      <div class="auction__slider-btn">
+                        <a class="auction__slider-button" href="#">Piese Bid</a>
+                        <a class="auction__slider-buttons" href="#">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="auction__slider-card slide__top">
+                  <img class="auction__slider-human" src="images/auction/onus_human.png" alt="#">
+                  <img class="auction__slider-images" src="images/auction/onus.jpg" alt="nft">
+                  <div class="auction__slider-heart">
+                    <label class="auction__slider-label">
+                      <input type="checkbox">                      
+                      <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector 2" d="M1 8.33834L11.413 16.255L21 8.33834L19 2.255L14.7174 1.255L11.413 5.005L7.69565 1.255L3.5 2.255L1 8.33834Z" stroke="#CB66DB"/>
+                      </svg>                    
+                    </label>
+                  </div>
+                  <div class="auction__slider-info">
+                    <div class="auction__slider-heading">
+                      <div class="auction__slider-article">
+                        <div class="auction__slider-name">Onus Medu</div>
+                        <div class="auction__slider-item">By davincidante</div>
+                      </div>
+                        <div class="auction__slider-prise">
+                        <div class="auction__slider-eth">5.12 ETH</div>
+                        <div class="auction__slider-stroke">8 in stock</div>
+                      </div>
+                    </div>
+                    <div class="auction__slider-bot">
+                      <div class="auction__slider-bid">
+                        <img src="images/auction/setting.svg" alt="settings">
+                        <div class="auction__slider-items">Highest bid <span>0.02Ethh</span></div>
+                      </div>
+                      <div class="auction__slider-btn">
+                        <a class="auction__slider-button" href="#">Piese Bid</a>
+                        <a class="auction__slider-buttons" href="#">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="auction__slider-card center-slide card__slide--active">
+                  <img class="auction__slider-human" src="images/auction/dream_human.png" alt="#">
+                  <img class="auction__slider-images" src="images/auction/dream.jpg" alt="nft">
+                  <div class="auction__slider-heart">
+                    <label class="auction__slider-label">
+                      <input type="checkbox">                      
+                      <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector 2" d="M1 8.33834L11.413 16.255L21 8.33834L19 2.255L14.7174 1.255L11.413 5.005L7.69565 1.255L3.5 2.255L1 8.33834Z" stroke="#CB66DB"/>
+                      </svg>                    
+                    </label>
+                  </div>
+                  <div class="auction__slider-info">
+                    <div class="auction__slider-heading">
+                      <div class="auction__slider-article">
+                        <div class="auction__slider-name">Dream Big</div>
+                        <div class="auction__slider-item">By itvrn</div>
+                      </div>
+                        <div class="auction__slider-prise">
+                        <div class="auction__slider-eth">2.45 ETH</div>
+                        <div class="auction__slider-stroke">6 in stock</div>
+                      </div>
+                    </div>
+                    <div class="auction__slider-bot">
+                      <div class="auction__slider-bid">
+                        <img src="images/auction/setting.svg" alt="settings">
+                        <div class="auction__slider-items">Highest bid <span>0.02Ethh</span></div>
+                      </div>
+                      <div class="auction__slider-btn">
+                        <a class="auction__slider-button" href="#">Piese Bid</a>
+                        <a class="auction__slider-buttons" href="#">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>          
+                <div class="auction__slider-card slide__top">
+                  <img class="auction__slider-human" src="images/auction/oddo_human.png" alt="#">
+                  <img class="auction__slider-images" src="images/auction/oddo.jpg" alt="nft">
+                  <div class="auction__slider-heart">
+                    <label class="auction__slider-label">
+                      <input type="checkbox">                      
+                      <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Vector 2" d="M1 8.33834L11.413 16.255L21 8.33834L19 2.255L14.7174 1.255L11.413 5.005L7.69565 1.255L3.5 2.255L1 8.33834Z" stroke="#CB66DB"/>
+                      </svg>                    
+                    </label>
+                  </div>
+                  <div class="auction__slider-info">
+                    <div class="auction__slider-heading">
+                      <div class="auction__slider-article">
+                        <div class="auction__slider-name">Oddoties</div>
+                        <div class="auction__slider-item">By brellias</div>
+                      </div>
+                        <div class="auction__slider-prise">
+                        <div class="auction__slider-eth">1.45 ETH</div>
+                        <div class="auction__slider-stroke">3 in stock</div>
+                      </div>
+                    </div>
+                    <div class="auction__slider-bot">
+                      <div class="auction__slider-bid">
+                        <img src="images/auction/setting.svg" alt="settings">
+                        <div class="auction__slider-items">Highest bid <span>0.02Ethh</span></div>
+                      </div>
+                      <div class="auction__slider-btn">
+                        <a class="auction__slider-button" href="#">Piese Bid</a>
+                        <a class="auction__slider-buttons" href="#">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="auction__arrow">
+                <a class="auction__arrows auction__arrows-prev" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="41" height="38" viewBox="0 0 41 38" fill="none">
+                    <path d="M24 13L15 19.8095L24 26" stroke="#DB58EC" stroke-opacity="0.5"/>
+                    <path d="M40.5 19C40.5 29.1822 31.5821 37.5 20.5 37.5C9.41785 37.5 0.5 29.1822 0.5 19C0.5 8.81783 9.41785 0.5 20.5 0.5C31.5821 0.5 40.5 8.81783 40.5 19Z" stroke="url(#paint0_linear_26_393)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_26_393" x1="0" y1="19" x2="41" y2="19" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#A658B3"/>
+                    <stop offset="0.63022" stop-color="#A457B1" stop-opacity="0"/>
+                    </linearGradient>
+                    </defs>
+                  </svg>
+                </a>
+                <a class="auction__arrows auction__arrows-next" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="41" height="38" viewBox="0 0 41 38" fill="none">
+                    <path d="M17 25L26 18.1905L17 12" stroke="#DB58EC" stroke-opacity="0.5"/>
+                    <path d="M0.500244 18.9998C0.500244 8.81759 9.41809 0.499756 20.5002 0.499756C31.5824 0.499756 40.5002 8.81759 40.5002 18.9998C40.5002 29.1819 31.5824 37.4998 20.5002 37.4998C9.41809 37.4998 0.500244 29.1819 0.500244 18.9998Z" stroke="url(#paint0_linear_26_403)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_26_403" x1="41.0002" y1="18.9998" x2="0.000244141" y2="18.9998" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#A658B3"/>
+                    <stop offset="0.63022" stop-color="#A457B1" stop-opacity="0"/>
+                    </linearGradient>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="collection main__collection">
+        <div class="collection__container">
+          <div class="collection__inner">
+            <div class="collection__top">
+              <h2 class="collection__top-title title">Hot Collection</h2>
+            </div>
+            <div class="collection__content">
+              <div class="collection__slider">
+                    <div class="collection__grid">
+                      <div class="collection__grid-box">
+                        <div class="collection__grid-images">
+                          <div class="collection__grid-img">
+                            <img class="collection__grid-img-left" src="images/collection/box__one/rr.jpg" alt="abstract">
+                          </div>
+                          <div class="collection__grid-img">
+                            <img src="images/collection/box__one/ww.jpg" alt="abstract">
+                          </div>
+                          <div class="collection__grid-img">
+                            <img class="collection__grid-img-right" src="images/collection/box__one/abb.jpg" alt="abstract">
+                          </div>
+                          <div class="collection__grid-imgs">
+                            <img src="images/collection/box__one/ee.jpg" alt="abstract">
+                          </div>
+                        </div>
+                        <div class="collection__grid-bottom">
+                          <h3 class="collection__grid-item">Abstract</h3>
+                          <a class="collection__grid-button" href="#">24 items</a>
+                        </div>
+                      </div>
+                      <div class="collection__grid-box">
+                        <div class="collection__grid-images">
+                          <div class="collection__grid-img">
+                            <img class="collection__grid-img-left" src="images/collection/box__four/gg.jpg" alt="ModernArt">
+                          </div>
+                          <div class="collection__grid-img">
+                            <img src="images/collection/box__four/hh.jpg" alt="ModernArt">
+                          </div>
+                          <div class="collection__grid-img">
+                            <img class="collection__grid-img-right" src="images/collection/box__four/jj.jpg" alt="ModernArt">
+                          </div>
+                          <div class="collection__grid-imgs">
+                            <img src="images/collection/box__four/YaSheng Art - Contemporary Art Oil Painting on Canvas 3D Metallic Blue and Silver Texture Abstract Art Pictures Canvas Wall Art Paintings Modern Home Decor Abstract Paintings Ready to hang24x36inch 1 (2).jpg" alt="ModernArt">
+                          </div>
+                        </div>
+                        <div class="collection__grid-bottom">
+                          <h3 class="collection__grid-item">Modern Art</h3>
+                          <a class="collection__grid-button" href="#">8 items</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="collection__grid">
+                        <div class="collection__grid-box">
+                            <div class="collection__grid-images">
+                              <div class="collection__grid-img">
+                                <img class="collection__grid-img-left" src="images/collection/box__two/tt.jpg" alt="game">
+                              </div>
+                              <div class="collection__grid-img">
+                                <img src="images/collection/box__two/yy.jpg" alt="game">
+                              </div>
+                              <div class="collection__grid-img">
+                                <img class="collection__grid-img-right" src="images/collection/box__two/uu.jpg" alt="game">
+                              </div>
+                              <div class="collection__grid-imgs">
+                                <img src="images/collection/box__two/ii.jpg" alt="game">
+                              </div>
+                            </div>
+                            <div class="collection__grid-bottom">
+                              <h3 class="collection__grid-item">Game</h3>
+                              <a class="collection__grid-button" href="#">27 items</a>
+                            </div>
+                        </div>
+                        <div class="collection__grid-box">
+                          <div class="collection__grid-images">
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-left" src="images/collection/box__five/zz.jpg" alt="Watercolor">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img src="images/collection/box__five/xx.jpg" alt="Watercolor">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-right" src="images/collection/box__five/cc.jpg" alt="Watercolor">
+                            </div>
+                            <div class="collection__grid-imgs">
+                              <img src="images/collection/box__five/vv.jpg" alt="Watercolor">
+                            </div>
+                          </div>
+                          <div class="collection__grid-bottom">
+                            <h3 class="collection__grid-item">Watercolor</h3>
+                            <a class="collection__grid-button" href="#">4 items</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="collection__grid">
+                        <div class="collection__grid-box">
+                          <div class="collection__grid-images">
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-left" src="images/collection/box__three/aa.jpg" alt="3D">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img src="images/collection/box__three/ss.jpg" alt="3D">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-right" src="images/collection/box__three/dd.jpg" alt="3D">
+                            </div>
+                            <div class="collection__grid-imgs">
+                              <img src="images/collection/box__three/ff.jpg" alt="3D">
+                            </div>
+                          </div>
+                          <div class="collection__grid-bottom">
+                            <h3 class="collection__grid-item">3D</h3>
+                            <a class="collection__grid-button" href="#">13 items</a>
+                          </div>
+                        </div>
+                        <div class="collection__grid-box">
+                          <div class="collection__grid-images">
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-left" src="images/collection/box__six/bb.jpg" alt="Graffiti">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img src="images/collection/box__six/nn.jpg" alt="Graffiti">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-right" src="images/collection/box__six/mm.jpg" alt="Graffiti">
+                            </div>
+                            <div class="collection__grid-imgs">
+                              <img src="images/collection/box__six/kk.jpg" alt="Graffiti">
+                            </div>
+                          </div>
+                          <div class="collection__grid-bottom">
+                            <h3 class="collection__grid-item">Graffiti</h3>
+                            <a class="collection__grid-button" href="#">10 items</a>
+                          </div>
+                        </div>
+                   </div>
+                   <div class="collection__grid">
+                    <div class="collection__grid-box">
+                      <div class="collection__grid-images">
+                        <div class="collection__grid-img">
+                          <img class="collection__grid-img-left" src="images/collection/box__one/rr.jpg" alt="abstract">
+                        </div>
+                        <div class="collection__grid-img">
+                          <img src="images/collection/box__one/ww.jpg" alt="abstract">
+                        </div>
+                        <div class="collection__grid-img">
+                          <img class="collection__grid-img-right" src="images/collection/box__one/abb.jpg" alt="abstract">
+                        </div>
+                        <div class="collection__grid-imgs">
+                          <img src="images/collection/box__one/ee.jpg" alt="abstract">
+                        </div>
+                      </div>
+                      <div class="collection__grid-bottom">
+                        <h3 class="collection__grid-item">Abstract</h3>
+                        <a class="collection__grid-button" href="#">24 items</a>
+                      </div>
+                    </div>
+                    <div class="collection__grid-box">
+                      <div class="collection__grid-images">
+                        <div class="collection__grid-img">
+                          <img class="collection__grid-img-left" src="images/collection/box__four/gg.jpg" alt="ModernArt">
+                        </div>
+                        <div class="collection__grid-img">
+                          <img src="images/collection/box__four/hh.jpg" alt="ModernArt">
+                        </div>
+                        <div class="collection__grid-img">
+                          <img class="collection__grid-img-right" src="images/collection/box__four/jj.jpg" alt="ModernArt">
+                        </div>
+                        <div class="collection__grid-imgs">
+                          <img src="images/collection/box__four/YaSheng Art - Contemporary Art Oil Painting on Canvas 3D Metallic Blue and Silver Texture Abstract Art Pictures Canvas Wall Art Paintings Modern Home Decor Abstract Paintings Ready to hang24x36inch 1 (2).jpg" alt="ModernArt">
+                        </div>
+                      </div>
+                      <div class="collection__grid-bottom">
+                        <h3 class="collection__grid-item">Modern Art</h3>
+                        <a class="collection__grid-button" href="#">8 items</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="collection__grid">
+                      <div class="collection__grid-box">
+                          <div class="collection__grid-images">
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-left" src="images/collection/box__two/tt.jpg" alt="game">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img src="images/collection/box__two/yy.jpg" alt="game">
+                            </div>
+                            <div class="collection__grid-img">
+                              <img class="collection__grid-img-right" src="images/collection/box__two/uu.jpg" alt="game">
+                            </div>
+                            <div class="collection__grid-imgs">
+                              <img src="images/collection/box__two/ii.jpg" alt="game">
+                            </div>
+                          </div>
+                          <div class="collection__grid-bottom">
+                            <h3 class="collection__grid-item">Game</h3>
+                            <a class="collection__grid-button" href="#">27 items</a>
+                          </div>
+                      </div>
+                      <div class="collection__grid-box">
+                        <div class="collection__grid-images">
+                          <div class="collection__grid-img">
+                            <img class="collection__grid-img-left" src="images/collection/box__five/zz.jpg" alt="Watercolor">
+                          </div>
+                          <div class="collection__grid-img">
+                            <img src="images/collection/box__five/xx.jpg" alt="Watercolor">
+                          </div>
+                          <div class="collection__grid-img">
+                            <img class="collection__grid-img-right" src="images/collection/box__five/cc.jpg" alt="Watercolor">
+                          </div>
+                          <div class="collection__grid-imgs">
+                            <img src="images/collection/box__five/vv.jpg" alt="Watercolor">
+                          </div>
+                        </div>
+                        <div class="collection__grid-bottom">
+                          <h3 class="collection__grid-item">Watercolor</h3>
+                          <a class="collection__grid-button" href="#">4 items</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="collection__dots"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="artworks main__artworks">
+        <div class="artworks__container">
+          <div class="artworks__inner">
+            <div class="artworks__top">
+              <h2 class="artworks__top-title title">Explre Artworks</h2>
+            </div>
+            <div class="artworks__tab">
+              <ul class="artworks__tab-nav">
+                <li class="artworks__tab-button active">Recomendations</д>
+                <li class="artworks__tab-button">Music</д>
+                <li class="artworks__tab-button">Modern Art</д>
+                <li class="artworks__tab-button">3d</д>
+                <li class="artworks__tab-button">Watercolor</д>
+              </ul>
+              <div class="artworks__tab-body">
+                  <div class="artworks__tab-item active">
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__music.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Vaporart</div>
+                            <div class="artworks__tab-artic">by weidner art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>50K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__3d.png" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">The Angel</div>
+                            <div class="artworks__tab-artic">by visual 3d</div>
+                          </div>
+                          <div class="artworks__tab-eth">4.85 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>30K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__modern.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Aesthetic</div>
+                            <div class="artworks__tab-artic">by itvrn</div>
+                          </div>
+                          <div class="artworks__tab-eth">1.98 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>20K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__watercolor.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Wadafox</div>
+                            <div class="artworks__tab-artic">by wondern art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>90K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="artworks__tab-item">       
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__music.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Vaporart</div>
+                            <div class="artworks__tab-artic">by weidner art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>50K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__music.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Vaporart</div>
+                            <div class="artworks__tab-artic">by weidner art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>50K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__music.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Vaporart</div>
+                            <div class="artworks__tab-artic">by weidner art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>50K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__music.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Vaporart</div>
+                            <div class="artworks__tab-artic">by weidner art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>50K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="artworks__tab-item">
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__modern.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Aesthetic</div>
+                            <div class="artworks__tab-artic">by itvrn</div>
+                          </div>
+                          <div class="artworks__tab-eth">1.98 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>20K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__modern.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Aesthetic</div>
+                            <div class="artworks__tab-artic">by itvrn</div>
+                          </div>
+                          <div class="artworks__tab-eth">1.98 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>20K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__modern.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Aesthetic</div>
+                            <div class="artworks__tab-artic">by itvrn</div>
+                          </div>
+                          <div class="artworks__tab-eth">1.98 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>20K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__modern.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Aesthetic</div>
+                            <div class="artworks__tab-artic">by itvrn</div>
+                          </div>
+                          <div class="artworks__tab-eth">1.98 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>20K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="artworks__tab-item">
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__3d.png" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">The Angel</div>
+                            <div class="artworks__tab-artic">by visual 3d</div>
+                          </div>
+                          <div class="artworks__tab-eth">4.85 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>30K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__3d.png" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">The Angel</div>
+                            <div class="artworks__tab-artic">by visual 3d</div>
+                          </div>
+                          <div class="artworks__tab-eth">4.85 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>30K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__3d.png" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">The Angel</div>
+                            <div class="artworks__tab-artic">by visual 3d</div>
+                          </div>
+                          <div class="artworks__tab-eth">4.85 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>30K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__3d.png" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">The Angel</div>
+                            <div class="artworks__tab-artic">by visual 3d</div>
+                          </div>
+                          <div class="artworks__tab-eth">4.85 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>30K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="artworks__tab-item">
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__watercolor.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Wadafox</div>
+                            <div class="artworks__tab-artic">by wondern art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>90K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__watercolor.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Wadafox</div>
+                            <div class="artworks__tab-artic">by wondern art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>90K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__watercolor.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Wadafox</div>
+                            <div class="artworks__tab-artic">by wondern art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>90K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="artworks__tab-card">
+                      <img class="artworks__tab-img" src="images/artworks/tab__watercolor.jpg" alt="nft">
+                      <img class="artworks__effect" src="images/artworks/artworks__effect.png" alt="effect">
+                      <div class="artworks__tab-info">
+                        <div class="artworks__tab-heading">
+                          <div class="artworks__tab-article">
+                            <div class="artworks__tab-name">Wadafox</div>
+                            <div class="artworks__tab-artic">by wondern art</div>
+                          </div>
+                          <div class="artworks__tab-eth">2.45 eth</div>
+                        </div>
+                        <div class="artworks__tab-bot">
+                          <div class="artworks__tab-items">1 of 1 available</div>
+                          <div class="artworks__tab-heart">
+                            <label class="artworks__tab-label">
+                              <input type="checkbox">
+                              <svg width="35" height="29" viewBox="0 0 35 29" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector 2" d="M1.41809 13.9015L18.3336 28.3208L33.9073 13.9015L30.6583 2.82139L23.7014 1L18.3336 7.8302L12.2949 1L5.47924 2.82139L1.41809 13.9015Z" stroke=""/>
+                              </svg>
+                            </label>
+                            <span>90K</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="artworks__bottom">
+              <a class="artworks__bottom-button button" href="#">Load More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="workss main__workss">
+        <div class="workss__container">
+          <div class="workss__inner">
+            <div class="workss__info">
+              <h2 class="workss__info-title">Hot it Workss</h2>
+              <p class="workss__info-paragraph">
+                Getting started and seling your
+                Nfts.Explore the full process so you
+                dont have any cpnfusions.
+              </p>
+              <a class="workss__info-button button" href="#">Load More</a>
+            </div>
+            <div class="workss__grid">
+              <div class="workss__grid-box">
+                <div class="workss__grid-img">
+                  <img src="images/workss/wallet.png" alt="wallet">
+                </div>
+                <div class="workss__grid-info">
+                  <div class="workss__grid-subtitle">Set up your wallet</div>
+                  <p class="workss__grid-text">
+                    To set up Apple Pay, add a debit, credit, or prepaid card to the Wallet app on your iPhone, Apple Watch, or other compatible device.
+                  </p>
+                </div>
+              </div>
+              <div class="workss__grid-box">
+                <div class="workss__grid-img">
+                  <img src="images/workss/cub.png" alt="cub">
+                </div>
+                <div class="workss__grid-info">
+                  <div class="workss__grid-subtitle">Create collection</div>
+                  <p class="workss__grid-text">
+                    In the command, name is name of collection to be created. Options is a document and is used to specify configuration
+                  </p>
+                </div>
+              </div>
+              <div class="workss__grid-box">
+                <div class="workss__grid-img">
+                  <img src="images/workss/picture.png" alt="picture">
+                </div>
+                <div class="workss__grid-info">
+                  <div class="workss__grid-subtitle">Add your NFTs</div>
+                  <p class="workss__grid-text">
+                    If you want to create a series of NFTs, you can use a collection to do so — on Rarible, you can create one right from the NFT creation screen
+                  </p>
+                </div>
+              </div>
+              <div class="workss__grid-box">
+                <div class="workss__grid-img">
+                  <img src="images/workss/comprose.png" alt="comprosse">
+                </div>
+                <div class="workss__grid-info">
+                  <div class="workss__grid-subtitle">List item for sale</div>
+                  <p class="workss__grid-text">
+                    Creating a listing is the first step in getting your item in front of ... We have a range of tools and options to help make sure your listing ends in a sale.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="connection main__connection">
+        <div class="connection__container">
+          <div class="connection__inner">
+            <div class="connection__content">
+              <h2 class="connection__title">Are you a digital creator?</h2>
+              <div class="connection__paragraph">
+                Learn how Marketplace helps you protect and sell your
+                unique digital creations, and join our growing community
+                of thousand digital creators 
+              </div>
+              <form class="connection__form">
+                <label class="connection__form-label" for="#">
+                  <input class="connection__form-input" type="email" placeholder="Enter your email" required>
+                  <button type="submit" class="connection__form-button">Get started</button>
+                </label>
+              </form>
+            </div>
+            <div class="connection__images">
+              <img src="images/connection/Polygon.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <a class="footer__logo" href="#">
+              <div class="footer__logo-box">
+                <img src="images/footer/footer__logo.svg" alt="logo">
+                <span> Nifter </span>
+              </div>
+            </a>
+            <p class="footer__info-paragraph">
+              The worlds largest digital marketplace for crypto collectibities and non
+              tokens (NFTs) Buy, Sell and discover exclusive digital assets
+            </p>
+            <div class="footer__info-message">
+              <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="Vector" d="M23.9438 3.09419C23.8932 2.97256 23.8079 2.8685 23.6985 2.795C23.5891 2.7215 23.4604 2.68181 23.3286 2.68089H19.7939C19.357 1.87957 18.7144 1.20887 17.9319 0.737718C17.1495 0.266564 16.2556 0.0119528 15.342 4.90475e-05C13.9694 -0.00591031 12.6503 0.5314 11.6734 1.49439C10.6965 2.45737 10.1414 3.76761 10.1296 5.13833V6.11014C5.38686 4.98195 1.4719 1.12824 1.42715 1.09473C1.34092 1.00972 1.23325 0.949607 1.11556 0.920776C0.997881 0.891946 0.874576 0.895471 0.758737 0.930977C0.642897 0.966482 0.538845 1.03264 0.457622 1.12244C0.376399 1.21224 0.321035 1.32232 0.297408 1.441C-0.675739 6.75801 0.923802 10.3101 2.43386 12.3543C3.23475 13.4488 4.21857 14.3972 5.34211 15.158C3.60835 17.258 0.756018 18.3527 0.722461 18.3638C0.627161 18.3989 0.541245 18.4554 0.471402 18.529C0.401558 18.6027 0.349671 18.6914 0.319779 18.7883C0.288039 18.8829 0.278591 18.9835 0.292172 19.0823C0.305754 19.1811 0.341997 19.2755 0.398079 19.358C0.509935 19.5255 1.60612 21 5.4316 21C13.228 21 19.7492 14.9793 20.3756 7.2495L23.7984 3.82025C23.8954 3.72948 23.9615 3.61069 23.9876 3.4805C24.0137 3.35031 23.9984 3.21525 23.9438 3.09419ZM19.2458 6.47876C19.1295 6.59467 19.0615 6.75037 19.0557 6.91439C18.5971 14.0633 12.6128 19.6596 5.4316 19.6596C3.8768 19.6596 2.88128 19.3915 2.28845 19.1234C3.55242 18.4867 5.62175 17.2356 6.88573 15.3367C6.93608 15.258 6.96997 15.1699 6.98535 15.0778C7.00072 14.9856 6.99728 14.8913 6.97521 14.8005C6.95137 14.7077 6.90815 14.6208 6.8484 14.5458C6.78865 14.4707 6.7137 14.4091 6.62846 14.3649C6.60609 14.3649 4.92825 13.4936 3.47412 11.5053C1.74035 9.13726 1.05803 6.24418 1.43834 2.9043C3.07144 4.2894 6.5949 6.90322 10.6888 7.58461C10.7852 7.60288 10.8844 7.59948 10.9793 7.57465C11.0742 7.54982 11.1623 7.50418 11.2373 7.44106C11.3123 7.37794 11.3723 7.29892 11.4128 7.20975C11.4534 7.12057 11.4735 7.02349 11.4718 6.92556V5.13833C11.4807 4.12607 11.8903 3.15845 12.6113 2.44684C13.3323 1.73523 14.306 1.33748 15.3197 1.34047C16.0521 1.35103 16.7661 1.57138 17.3769 1.97533C17.9876 2.37927 18.4693 2.94983 18.7648 3.61919C18.8159 3.7396 18.9016 3.84213 19.0112 3.91374C19.1207 3.98535 19.2491 4.02279 19.38 4.02132H21.7066L19.2458 6.47876Z" fill=""/>
+              </svg> 
+              <svg width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="Vector" d="M21.9993 1.74523C20.3526 0.931691 18.5697 0.341221 16.7125 6.03568e-05C16.6962 -0.00049154 16.68 0.00274697 16.665 0.00954824C16.65 0.0163495 16.6367 0.0265484 16.6258 0.0394253C16.4029 0.472437 16.1429 1.03666 15.9696 1.46968C13.9997 1.15476 11.9964 1.15476 10.0266 1.46968C9.85324 1.02354 9.59323 0.472437 9.35798 0.0394253C9.3456 0.0131822 9.30846 6.03568e-05 9.27131 6.03568e-05C7.41412 0.341221 5.6436 0.931691 3.9845 1.74523C3.97212 1.74523 3.95974 1.75835 3.94736 1.77147C0.579648 7.11195 -0.348949 12.3081 0.109159 17.4517C0.109159 17.478 0.12154 17.5042 0.146302 17.5174C2.37493 19.2494 4.5169 20.2991 6.6341 20.9946C6.67124 21.0077 6.70839 20.9946 6.72077 20.9683C7.21602 20.2466 7.66175 19.4856 8.04557 18.6852C8.07033 18.6327 8.04557 18.5802 7.99604 18.5671C7.29031 18.2784 6.62172 17.9372 5.96551 17.5436C5.91599 17.5174 5.91598 17.4386 5.95313 17.3993C6.08932 17.2943 6.22552 17.1762 6.36171 17.0712C6.38647 17.045 6.42362 17.045 6.44838 17.0581C10.7075 19.1182 15.301 19.1182 19.5106 17.0581C19.5354 17.045 19.5725 17.045 19.5973 17.0712C19.7335 17.1893 19.8697 17.2943 20.0059 17.4124C20.0554 17.4517 20.0554 17.5305 19.9935 17.5567C19.3497 17.9635 18.6687 18.2915 17.963 18.5802C17.9135 18.5933 17.9011 18.6589 17.9135 18.6983C18.3097 19.4987 18.7554 20.2598 19.2383 20.9814C19.2754 20.9946 19.3125 21.0077 19.3497 20.9946C21.4793 20.2991 23.6212 19.2494 25.8499 17.5174C25.8746 17.5042 25.887 17.478 25.887 17.4517C26.4318 11.5077 24.9832 6.3509 22.0488 1.77147C22.0364 1.75835 22.024 1.74523 21.9993 1.74523ZM8.68939 14.3157C7.41412 14.3157 6.34933 13.0691 6.34933 11.5339C6.34933 9.99869 7.38936 8.75214 8.68939 8.75214C10.0018 8.75214 11.0418 10.0118 11.0295 11.5339C11.0295 13.0691 9.98943 14.3157 8.68939 14.3157ZM17.3192 14.3157C16.0439 14.3157 14.9791 13.0691 14.9791 11.5339C14.9791 9.99869 16.0191 8.75214 17.3192 8.75214C18.6316 8.75214 19.6716 10.0118 19.6592 11.5339C19.6592 13.0691 18.6316 14.3157 17.3192 14.3157Z" fill=""/>
+              </svg>
+              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="Vector" d="M10.5 5.46C9.50318 5.46 8.52875 5.75559 7.69993 6.30939C6.8711 6.8632 6.22511 7.65034 5.84365 8.57127C5.46218 9.49222 5.36237 10.5056 5.55684 11.4833C5.75131 12.4609 6.23133 13.359 6.93618 14.0638C7.64104 14.7687 8.53908 15.2487 9.51674 15.4432C10.4944 15.6376 11.5078 15.5378 12.4287 15.1564C13.3497 14.7749 14.1368 14.1289 14.6906 13.3001C15.2444 12.4713 15.54 11.4968 15.54 10.5C15.54 9.16331 15.009 7.88137 14.0638 6.93618C13.1186 5.991 11.8367 5.46 10.5 5.46ZM10.5 13.86C9.83545 13.86 9.18583 13.6629 8.63328 13.2937C8.08074 12.9245 7.65007 12.3998 7.39576 11.7858C7.14145 11.1719 7.07491 10.4963 7.20456 9.8445C7.33421 9.19272 7.65422 8.59403 8.12412 8.12412C8.59403 7.65422 9.19272 7.33421 9.8445 7.20456C10.4963 7.07491 11.1719 7.14145 11.7858 7.39576C12.3998 7.65007 12.9245 8.08074 13.2937 8.63328C13.6629 9.18583 13.86 9.83545 13.86 10.5C13.8572 11.3903 13.5023 12.2433 12.8728 12.8728C12.2433 13.5023 11.3903 13.8572 10.5 13.86ZM15.12 0H5.88C4.32053 0 2.82493 0.619498 1.72221 1.72221C0.619498 2.82493 0 4.32053 0 5.88V15.12C0 16.6795 0.619498 18.1751 1.72221 19.2778C2.82493 20.3805 4.32053 21 5.88 21H15.12C16.6795 21 18.1751 20.3805 19.2778 19.2778C20.3805 18.1751 21 16.6795 21 15.12V5.88C21 4.32053 20.3805 2.82493 19.2778 1.72221C18.1751 0.619498 16.6795 0 15.12 0ZM19.32 15.12C19.32 15.6716 19.2114 16.2177 19.0003 16.7273C18.7892 17.2368 18.4799 17.6998 18.0898 18.0898C17.6998 18.4799 17.2368 18.7892 16.7273 19.0003C16.2177 19.2114 15.6716 19.32 15.12 19.32H5.88C5.32845 19.32 4.7823 19.2114 4.27273 19.0003C3.76316 18.7892 3.30016 18.4799 2.91015 18.0898C2.52015 17.6998 2.21078 17.2368 1.99971 16.7273C1.78864 16.2177 1.68 15.6716 1.68 15.12V5.88C1.68 4.76609 2.1225 3.6978 2.91015 2.91015C3.6978 2.1225 4.76609 1.68 5.88 1.68H15.12C15.6716 1.68 16.2177 1.78864 16.7273 1.99971C17.2368 2.21078 17.6998 2.52015 18.0898 2.91015C18.4799 3.30016 18.7892 3.76316 19.0003 4.27273C19.2114 4.7823 19.32 5.32845 19.32 5.88V15.12ZM17.22 5.04C17.22 5.2892 17.1461 5.53281 17.0077 5.74002C16.8692 5.94722 16.6724 6.10872 16.4422 6.20409C16.2119 6.29945 15.9586 6.32441 15.7142 6.27579C15.4698 6.22717 15.2453 6.10717 15.069 5.93095C14.8928 5.75474 14.7728 5.53023 14.7242 5.28581C14.6756 5.0414 14.7005 4.78805 14.7959 4.55782C14.8913 4.32758 15.0528 4.1308 15.26 3.99235C15.4672 3.8539 15.7108 3.78 15.96 3.78C16.2942 3.78 16.6147 3.91275 16.851 4.14904C17.0872 4.38534 17.22 4.70583 17.22 5.04Z" fill=""/>
+              </svg>
+              <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="entypo-social:vk">
+                <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M25.4316 19.7982C25.4316 19.7982 27.7416 22.2724 28.313 23.4173C28.3241 23.4338 28.3328 23.4521 28.3387 23.4715C28.5716 23.8945 28.6287 24.226 28.5144 24.4708C28.3216 24.8751 27.6687 25.0781 27.4473 25.0951H23.3644C23.0801 25.0951 22.4887 25.0146 21.7687 24.4754C21.2187 24.0587 20.6716 23.3724 20.1416 22.7015C19.3501 21.7054 18.6659 20.8409 17.973 20.8409C17.8855 20.8407 17.7986 20.8564 17.7159 20.8873C17.1916 21.0671 16.5259 21.8773 16.5259 24.0354C16.5259 24.7109 16.0344 25.0951 15.6901 25.0951H13.8201C13.183 25.0951 9.86585 24.8535 6.92442 21.49C3.32013 17.3721 0.0829859 9.11139 0.0515573 9.03857C-0.149871 8.50408 0.272986 8.21281 0.730129 8.21281H4.85299C5.40585 8.21281 5.58585 8.57534 5.71156 8.90069C5.85728 9.27406 6.39728 10.7676 7.28299 12.4454C8.71728 15.1752 9.59871 16.286 10.303 16.286C10.4353 16.2865 10.5654 16.249 10.6801 16.1776C11.6001 15.6291 11.4287 12.0658 11.3859 11.3315C11.3859 11.189 11.3844 9.74039 10.913 9.04012C10.5759 8.53816 10.0016 8.34295 9.65442 8.27169C9.74728 8.12606 9.94442 7.90296 10.1973 7.77127C10.8273 7.43044 11.9659 7.38086 13.0959 7.38086H13.723C14.9487 7.39945 15.2659 7.48466 15.7116 7.60705C16.6087 7.83944 16.6259 8.46999 16.5473 10.6173C16.5244 11.2308 16.5001 11.9218 16.5001 12.7351C16.5001 12.9086 16.493 13.1023 16.493 13.299C16.4659 14.4006 16.4301 15.6415 17.1473 16.1512C17.2403 16.2141 17.3477 16.2474 17.4573 16.2473C17.7059 16.2473 18.4501 16.2473 20.4687 12.4903C21.3544 10.8311 22.0401 8.87435 22.0873 8.72717C22.1273 8.64506 22.2473 8.41422 22.393 8.32126C22.4967 8.26145 22.6128 8.23158 22.7302 8.2345H27.5802C28.1087 8.2345 28.4673 8.32126 28.5373 8.53816C28.6544 8.88984 28.5144 9.96348 26.3002 13.2107C25.9273 13.7514 25.6002 14.2193 25.313 14.6283C23.3059 17.4852 23.3059 17.6292 25.4316 19.7982Z" fill=""/>
+                </g>
+              </svg>
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="ic:baseline-facebook">
+                <path id="Vector" d="M22.2381 12.7386C22.2381 7.36291 17.7048 3 12.119 3C6.53333 3 2 7.36291 2 12.7386C2 17.4521 5.48095 21.3768 10.0952 22.2825V15.6602H8.07143V12.7386H10.0952V10.304C10.0952 8.42442 11.6839 6.89545 13.6369 6.89545H16.1667V9.81704H14.1429C13.5863 9.81704 13.131 10.2553 13.131 10.7909V12.7386H16.1667V15.6602H13.131V22.4286C18.2411 21.9416 22.2381 17.793 22.2381 12.7386Z" fill=""/>
+                </g>
+              </svg>                 
+            </div>
+          </div>
+          <nav class="footer__nav">
+            <div class="footer__navbar">
+              <h3 class="footer__navbar-subtitle">Exlporer</h3>
+              <ul class="footer__navbar-list">
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Art</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Photography</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Music</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Games</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__navbar">
+              <h3 class="footer__navbar-subtitle">MY Account</h3>
+              <ul class="footer__navbar-list">
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">My profile</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">My collections</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">My Favorites</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">My Account Setings</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__navbar">
+              <h3 class="footer__navbar-subtitle">Resourses</h3>
+              <ul class="footer__navbar-list">
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Help Center</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Parhers</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Suggestions</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Newsletter</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__navbar">
+              <h3 class="footer__navbar-subtitle">Company</h3>
+              <ul class="footer__navbar-list">
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">About</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Careers</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Rankings</a>
+                </li>
+                <li class="footer__navbar-item">
+                  <a class="footer__navbar-link" href="#">Activity</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </footer>
+   </div>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/*=========================================VARS==================================*/
+
+%title__style {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+%button {
+  display: block;
+  white-space: nowrap;
+  padding: 11px 32px 11px 32px;
+  border-radius: 10px;
+  background: #901FA3;
+  -webkit-box-shadow: 3px 4px 8px 0px rgba(201, 55, 225, 0.15);
+          box-shadow: 3px 4px 8px 0px rgba(201, 55, 225, 0.15);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+%button__hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+%buttons {
+  display: block;
+  white-space: nowrap;
+  border: 1px solid #fff;
+  padding: 11px 31px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+%buttons__hover {
+  transform: scale(1.05);
+} 
+%btn {
+  display: block;
+  white-space: nowrap;
+  border: 1px solid #C264D1;;
+  background: rgba(0, 0, 0, 0.16);
+  padding: 11px 32px;
+  border-radius: 10px;
+  color: #FE6BFF;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+%btn__hover {
+  transform: scale(1.05);
+}
+%btns {
+  display: block;
+  white-space: nowrap;
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.16);
+  padding: 11px 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+%btns__hover {
+  transform: scale(1.05);
+}
+%item {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+%items {
+  color: #CB66DB;
+  font-size: 36px;
+  font-weight: 600;
+}
+%seller__text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+

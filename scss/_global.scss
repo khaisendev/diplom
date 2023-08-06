@@ -1,0 +1,109 @@
+/*=========================================GLOBAL==================================*/
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  background: #1f1721;
+}
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+.burger {
+  display: none;
+}
+.header__container {
+  max-width: 1394px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.containers {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin-left: auto;
+  height: 100%;
+}
+.auction__container {
+  max-width: 1396px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.collection__container {
+  max-width: 1194px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.connection__container {
+  max-width: 1164px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.artworks__container {
+  max-width: 1178px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.workss__container {
+  max-width: 1194px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.footer__container {
+  max-width: 1164px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.button {
+  @extend %button;
+  &:hover {
+    @extend %button__hover;
+  }
+}
+.buttons {
+  @extend %buttons;
+  &:hover {
+    @extend %buttons__hover;
+  }
+}
+.btn {
+  @extend %btn;
+  &:hover {
+    @extend %btn__hover;
+  }
+}
+.btns {
+  @extend %btns;
+  &:hover {
+    @extend %btns__hover;
+  }
+}
+.title {
+  @extend %title__style;
+}
+.main__seller {
+  padding-top: 130px;
+}
+.main__auction {
+  padding-top: 130px;
+}
+.main__collection {
+  padding-top: 130px;
+}
+.main__artworks {
+  padding-top: 130px;
+}
+.main__workss {
+  padding-top: 130px;
+}
+.main__connection {
+  padding-top: 130px;
+}
